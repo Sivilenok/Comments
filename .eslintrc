@@ -1,0 +1,7 @@
+{
+    "rules": {
+      "no-unused-vars": "off",
+      "babel/no-unused-expressions": "error"
+    }
+  }
+  

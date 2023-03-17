@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="stylesheet" href="/style.css" />
+</head>
+
+<body>
+  <div class="content-box">
+    <div class="reviews__wrapper">
+      <h2 class="reviews__title">Отзывы<span class="reviews-number"></span></h2>
+
+      <form class="reviews__form">
+        <label for="reviews__name">Имя:</label>
+        <input type="text" class="reviews__input" id="name" name="reviews-name">
+        <span class="reviews__error" id="name-error"></span>
+        <label for="reviews__text">Текст:</label>
+        <textarea id="text" name="reviews-text"></textarea>
+        <span class="reviews__error" id="text-error"></span>
+        <br>
+        <label for="reviews__date">Дата:</label>
+        <input type="text" id="date" name="reviews-date" placeholder="гг-мм-дд">
+        <span class="reviews__error" id="date-error"></span>
+        <br>
+        <button type="submit" class="reviews__button">Добавить отзыв</button>
+      </form>
+
+      <div class="comment__list"></div>
+
+    </div>
+
+    <script src="/index.js"></script>
+  </div>
+</body>
+
+</html>
